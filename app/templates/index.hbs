@@ -1,0 +1,10 @@
+{{outlet}}
+
+<h2>Todos</h2>
+<ul>
+  {{#each model as |todo|}}
+  <li>{{todo}}</li>
+  {{/each}}
+</ul>
+
+<a {{action "click"}}>Add Todo</a>
